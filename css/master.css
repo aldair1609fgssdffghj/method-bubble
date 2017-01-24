@@ -1,0 +1,19 @@
+#contenido{
+  background-color: #eee;
+  padding:20px;
+  margin-bottom:20px;
+}
+.bloque{
+  display: inline-block;
+  width:20px;
+  height:20px;
+  margin-left: 4px;
+  text-align: center;
+  padding:5px;
+  background:#fff;
+  font-size: "Arial";
+ }
+input:disabled{
+  border-color:red;
+  opacity:.4;
+}
