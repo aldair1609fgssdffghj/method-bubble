@@ -31,9 +31,7 @@ function printArray(){
 	for(init=0; init< arreglo.length;init++){
 		//Indicamos los parametros de nuestra funcion
     createList("div", "bloque", arreglo[init], "contenido");
-    console.log(arreglo);
 	}
-  console.log("entro");
 }
 
 function burbuja(){
@@ -73,7 +71,6 @@ btnAdd.addEventListener("click",function(){
     createList("div", "bloque", number.value, "contenido");
     //Dejamos nuestro input vacio
     number.value = "";
-    console.log(arreglo);
   }
 });
 
